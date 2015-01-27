@@ -39,7 +39,7 @@ public abstract class Parser {
 	 * @throws FileNotFoundException
 	 * @throws XMLStreamException
 	 */
-	protected void parse() throws FileNotFoundException, XMLStreamException{
+	public void parse() throws FileNotFoundException, XMLStreamException{
 		if(!isParsed()){
 			parseFile();
 			setParsed(true);
