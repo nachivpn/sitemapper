@@ -78,7 +78,7 @@ public class SiteIndexParser extends Parser{
 	 * add the {@code siteMapObject} to {@code indexSet}
 	 * @param siteMapObject
 	 */
-	private void action(SiteMap siteMapObject) {
+	public void action(SiteMap siteMapObject) {
 		indexSet.add(siteMapObject);
 	}
 	
